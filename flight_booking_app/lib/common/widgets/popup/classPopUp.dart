@@ -86,8 +86,7 @@ class _ClassPopUpState extends State<ClassPopUp> {
                 SizedBox(height: 100),
                 OutlinedButton(
                   style: OutlinedButton.styleFrom(
-                    primary: Colors.black,
-                    backgroundColor: const Color(0xFFEC441E),
+                    foregroundColor: Colors.black, backgroundColor: const Color(0xFFEC441E),
                   ),
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.center,

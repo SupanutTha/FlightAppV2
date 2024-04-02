@@ -2,7 +2,7 @@ import 'package:http/http.dart' as http;
 import 'package:intl/intl.dart';
 import 'dart:convert';
 
-import '../utilities/accessToken.dart';
+import 'accessToken.dart';
 import '../models/flight.dart';
 import '../models/flight_search_data.dart';
 

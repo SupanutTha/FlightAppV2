@@ -100,8 +100,7 @@ class _TravellersPopUpState extends State<TravellersPopUp> {
                 SizedBox(height: 150),
                 OutlinedButton(
             style: OutlinedButton.styleFrom(
-              primary: Colors.black,
-              backgroundColor:
+              foregroundColor: Colors.black, backgroundColor:
                   const Color(0xFFEC441E),
             ),
             child: Row(

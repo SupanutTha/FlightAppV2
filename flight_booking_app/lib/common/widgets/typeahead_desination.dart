@@ -1,4 +1,4 @@
-import '/utilities/database_helper.dart';
+import '../utilities/database_helper.dart';
 import 'package:flutter_typeahead/flutter_typeahead.dart';
 
 import 'package:flutter/material.dart';

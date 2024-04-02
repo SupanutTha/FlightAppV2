@@ -1,9 +1,9 @@
 // ignore_for_file: public_member_api_docs, sort_constructors_first
 import 'package:flutter/material.dart';
-import '/utilities/database_helper.dart';
+import '../../utilities/database_helper.dart';
 
 class SuggestionList {
-  final TextEditingController controller;
+  final String? controller;
   SuggestionList({
     required this.controller,
   });
@@ -23,14 +23,14 @@ class SuggestionList {
 
   }
 
-class SuggestResutl {
-       late TextEditingController suggestResutl;
-      void saveResutl(TextEditingController  _controller){
-          suggestResutl = _controller;
+class SuggestResult {
+      late TextEditingController suggestResult;
+      void saveResult(TextEditingController  _controller){
+          suggestResult = _controller;
       }
       
       TextEditingController get getResutl{
-        return suggestResutl;
+        return suggestResult;
       }
 
 

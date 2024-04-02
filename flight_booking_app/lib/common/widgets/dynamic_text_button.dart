@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'xen_popup/xen_card.dart';
 
 class DynamicTextButton extends StatefulWidget{
-  final String textController;
+  final String? textController;
   final String buttonText;
   final IconData icon; 
   final Widget buttonAction;
@@ -26,8 +26,7 @@ class _DynamicTextButtonState extends State<DynamicTextButton> {
   Widget build(BuildContext context) {
    return  OutlinedButton(
       style: OutlinedButton.styleFrom(
-        primary: Colors.black,
-        backgroundColor:const Color.fromARGB(11, 0, 0, 0),
+        foregroundColor: Colors.black, backgroundColor:const Color.fromARGB(11, 0, 0, 0),
         //minimumSize: Size(160, 50)
         //fixedSize: Size(160,50)
       ),
@@ -40,10 +39,10 @@ class _DynamicTextButtonState extends State<DynamicTextButton> {
           SizedBox(width: 8 , height: 50,), 
           Builder(
               builder: (context) {
-                final displayText =  widget.textController.isNotEmpty
+                final displayText =  widget.textController != null
                     ? widget.textController
                     : widget.buttonText;
-                return Text(displayText);
+                return Text(displayText!);
               },
             )
           
@@ -56,7 +55,6 @@ class _DynamicTextButtonState extends State<DynamicTextButton> {
         body:  widget.buttonAction,
           ),
         );
-        setState(() {});
       },
     );
                                     

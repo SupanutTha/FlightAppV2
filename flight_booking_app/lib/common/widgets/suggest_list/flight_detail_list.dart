@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:another_stepper/another_stepper.dart';
-import 'package:flight_booking_app/utilities/database_helper.dart';
+import 'package:flight_booking_app/common/utilities/database_helper.dart';
 import 'package:intl/intl.dart';
 
 class FlightDetailList extends StatelessWidget {

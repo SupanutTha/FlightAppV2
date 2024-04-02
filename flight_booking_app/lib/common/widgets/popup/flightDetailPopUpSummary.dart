@@ -1,6 +1,6 @@
-import 'package:flight_booking_app/widgets/suggest_list/flight_detail_list.dart';
+import 'package:flight_booking_app/common/widgets/suggest_list/flight_detail_list.dart';
 import 'package:flutter/material.dart';
-import 'package:flight_booking_app/utilities/database_helper.dart';
+import 'package:flight_booking_app/common/utilities/database_helper.dart';
 
 class FlightDetailPopUpSummary extends StatefulWidget {
   final dynamic flight;

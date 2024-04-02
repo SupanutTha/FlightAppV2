@@ -1,13 +1,13 @@
 import 'dart:convert';
 import 'dart:io';
-import 'package:flight_booking_app/models/flight.dart';
+import 'package:flight_booking_app/common/models/flight.dart';
 
-import '/models/airline_db.dart';
+import '../models/airline_db.dart';
 import 'package:flutter/services.dart';
 import 'package:sqflite/sqflite.dart';
 import 'package:path/path.dart';
-import 'package:flight_booking_app/models/airline_logo_db.dart';
-import '/models/airport_db.dart';
+import 'package:flight_booking_app/common/models/airline_logo_db.dart';
+import '../models/airport_db.dart';
 
 class DatabaseHelper {
   static final DatabaseHelper instance = DatabaseHelper._init();

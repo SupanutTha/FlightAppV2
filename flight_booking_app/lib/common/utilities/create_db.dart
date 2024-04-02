@@ -1,6 +1,6 @@
 import 'dart:convert';
-import 'package:flight_booking_app/models/airline_db.dart';
-import 'package:flight_booking_app/utilities/database_helper.dart';
+import 'package:flight_booking_app/common/models/airline_db.dart';
+import 'package:flight_booking_app/common/utilities/database_helper.dart';
 import 'package:flutter/material.dart';
 import 'package:sqflite/sqflite.dart';
 

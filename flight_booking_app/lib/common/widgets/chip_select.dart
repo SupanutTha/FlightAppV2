@@ -1,6 +1,6 @@
 // ignore_for_file: prefer_const_constructors
 
-import 'package:flight_booking_app/models/flight.dart';
+import 'package:flight_booking_app/common/models/flight.dart';
 import 'package:flutter/material.dart';
 
 class ActionChoiceExample extends StatefulWidget {
